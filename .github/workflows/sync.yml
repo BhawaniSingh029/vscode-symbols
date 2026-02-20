@@ -12,12 +12,17 @@ jobs:
       contents: write   # needed to push to main
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Sync fork
-        uses: repo-sync/github-sync@v2
+        uses: actions/checkout@v4
         with:
-          source_repo: "https://github.com/miguelsolorio/vscode-symbols.git"
-          source_branch: "main"
-          destination_branch: "main"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Add upstream and merge
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote add upstream https://github.com/miguelsolorio/vscode-symbols.git || true
+          git fetch upstream main
+          git merge upstream/main --no-edit
+
+      - name: Push changes
+        run: git push origin main
