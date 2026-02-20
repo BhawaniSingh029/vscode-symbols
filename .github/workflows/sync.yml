@@ -2,7 +2,7 @@ name: Sync Fork
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Runs every 6 hours
+    - cron: "0 */6 * * *" # Runs every 6 hours
   workflow_dispatch:
 
 jobs:
@@ -15,7 +15,7 @@ jobs:
       - name: Sync fork
         uses: repo-sync/github-sync@v2
         with:
-          source_repo: "https://github.com/ORIGINAL_OWNER/ORIGINAL_REPO"
+          source_repo: "https://github.com/miguelsolorio/vscode-symbols.git"
           source_branch: "main"
           destination_branch: "main"
           github_token: ${{ secrets.GITHUB_TOKEN }}
