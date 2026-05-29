@@ -128,6 +128,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-models         | ![folder-models](folders/folder-models.png)                 |
 | folder-modules        | ![folder-modules](folders/folder-modules.png)               |
 | folder-mongo          | ![folder-mongo](folders/folder-mongo.png)                   |
+| folder-next           | ![folder-next](folders/folder-next.png)                     |
 | folder-nginx          | ![folder-nginx](folders/folder-nginx.png)                   |
 | folder-node-modules   | ![folder-node-modules](folders/folder-node-modules.png)     |
 | folder-orange         | ![folder-orange](folders/folder-orange.png)                 |
@@ -169,6 +170,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | folder-yellow         | ![folder-yellow](folders/folder-yellow.png)                 |
 | folder-yellow-code    | ![folder-yellow-code](folders/folder-yellow-code.png)       |
 | folder-yellow-outline | ![folder-yellow-outline](folders/folder-yellow-outline.png) |
+| folder-zed            | ![folder-zed](folders/folder-zed.png)                       |
 | font                  | ![font](files/font.png)                                     |
 | fortran               | ![fortran](files/fortran.png)                               |
 | fresh                 | ![fresh](files/fresh.png)                                   |
@@ -211,6 +213,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | keystatic             | ![keystatic](files/keystatic.png)                           |
 | knip                  | ![knip](files/knip.png)                                     |
 | kotlin                | ![kotlin](files/kotlin.png)                                 |
+| kubb                  | ![kubb](files/kubb.png)                                     |
 | laravel               | ![laravel](files/laravel.png)                               |
 | license               | ![license](files/license.png)                               |
 | liquid                | ![liquid](files/liquid.png)                                 |
@@ -242,7 +245,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | nx                    | ![nx](files/nx.png)                                         |
 | ocaml                 | ![ocaml](files/ocaml.png)                                   |
 | orval                 | ![orval](files/orval.png)                                   |
-| oxlint                | ![oxlint](files/oxlint.png)                                 |
+| oxc                   | ![oxc](files/oxc.png)                                       |
 | panda                 | ![panda](files/panda.png)                                   |
 | patch                 | ![patch](files/patch.png)                                   |
 | pdf                   | ![pdf](files/pdf.png)                                       |
@@ -271,6 +274,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | rescript              | ![rescript](files/rescript.png)                             |
 | rescript-interface    | ![rescript-interface](files/rescript-interface.png)         |
 | robot                 | ![robot](files/robot.png)                                   |
+| rolldown              | ![rolldown](files/rolldown.png)                             |
 | rome                  | ![rome](files/rome.png)                                     |
 | rsbuild               | ![rsbuild](files/rsbuild.png)                               |
 | rslib                 | ![rslib](files/rslib.png)                                   |
@@ -316,6 +320,7 @@ You can choose which icons to use from the [Library](https://www.figma.com/file/
 | vite                  | ![vite](files/vite.png)                                     |
 | vitest                | ![vitest](files/vitest.png)                                 |
 | vue                   | ![vue](files/vue.png)                                       |
+| webgpu                | ![webgpu](files/webgpu.png)                                 |
 | webpack               | ![webpack](files/webpack.png)                               |
 | xml                   | ![xml](files/xml.png)                                       |
 | yaml                  | ![yaml](files/yaml.png)                                     |

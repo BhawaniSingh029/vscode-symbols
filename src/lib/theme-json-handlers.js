@@ -17,6 +17,22 @@ const updateThemeJSONHandlers = {
 			}
 		}
 	},
+	"subfolder.file.associations": (themeJSON, folders) => {
+		for (const folder in folders) {
+			for (const file in folders[folder]) {
+				const patterns = Array.from({ length: 5 }, (_, i) => `${"*/".repeat(i)}${folder}/${file}`);
+
+				for (const pattern of patterns) {
+					if (file.startsWith("*.")) {
+						const newExtension = pattern.replace("*.", "");
+						themeJSON.fileExtensions[newExtension] = folders[folder][file];
+					} else {
+						themeJSON.fileNames[pattern] = folders[folder][file];
+					}
+				}
+			}
+		}
+	},
 };
 
 module.exports = {
